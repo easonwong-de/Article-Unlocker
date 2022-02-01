@@ -1,0 +1,30 @@
+{
+  "name": "Initium Unlocker",
+  "version": "1.0",
+  "description": "Unlocks articles on Initium.",
+  "author": "Eason Wong",
+  "permissions": ["activeTab", "tabs", "declarativeContent", "storage", "https://telegra.ph/", "https://theinitium.com/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+      "matches": ["*://theinitium.com/*"],
+      "js": ["content_script.js"]
+    }],
+  "page_action": {
+    "default_icon": {
+      "16": "images/initium_unlocker16.png",
+      "32": "images/initium_unlocker32.png",
+      "48": "images/initium_unlocker48.png",
+      "128": "images/initium_unlocker128.png"
+    }
+  },
+  "icons": {
+    "16": "images/initium_unlocker16.png",
+    "32": "images/initium_unlocker16.png",
+    "48": "images/initium_unlocker16.png",
+    "128": "images/initium_unlocker16.png"
+  },
+  "manifest_version": 2
+}
