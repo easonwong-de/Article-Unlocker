@@ -3,8 +3,8 @@ Unlocks articles.
 <br>
 
 ### Compatibility
-Google Chrome / Chromium: Yes  
-Firefox: No  
+Chrome / Chromium: Yes  
+Firefox: Yes  
 Edge: N/A  
 Safari: No  
 <br>
