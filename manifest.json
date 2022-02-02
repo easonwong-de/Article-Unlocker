@@ -1,9 +1,9 @@
 {
   "name": "Article Unlocker",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Unlocks articles.",
   "author": "Eason Wong",
-  "permissions": ["activeTab", "tabs", "declarativeContent", "storage", "https://telegra.ph/", "https://theinitium.com/"],
+  "permissions": ["activeTab", "tabs", "storage", "https://telegra.ph/*", "https://theinitium.com/*"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -17,14 +17,16 @@
       "16": "images/article_unlocker16.png",
       "32": "images/article_unlocker32.png",
       "48": "images/article_unlocker48.png",
+      "96": "images/article_unlocker96.png",
       "128": "images/article_unlocker128.png"
     }
   },
   "icons": {
     "16": "images/article_unlocker16.png",
-    "32": "images/article_unlocker16.png",
-    "48": "images/article_unlocker16.png",
-    "128": "images/article_unlocker16.png"
+    "32": "images/article_unlocker32.png",
+    "48": "images/article_unlocker48.png",
+    "96": "images/article_unlocker96.png",
+    "128": "images/article_unlocker128.png"
   },
   "manifest_version": 2
 }
