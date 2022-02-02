@@ -1,15 +1,4 @@
 
-chrome.runtime.onInstalled.addListener(function() {
-  chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
-    chrome.declarativeContent.onPageChanged.addRules([{
-      conditions: [new chrome.declarativeContent.PageStateMatcher({
-        pageUrl: {urlContains: 'theinitium.com/article'},
-      })],
-      actions: [new chrome.declarativeContent.ShowPageAction()]
-    }]);
-  });
-});
-
 chrome.tabs.onUpdated.addListener(startup);
 
 chrome.tabs.onActivated.addListener(startup);
