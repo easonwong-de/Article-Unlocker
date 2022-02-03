@@ -28,6 +28,6 @@ Download Add-on from [here](https://addons.mozilla.org/en-GB/firefox/addon/artic
 ## Similar Projects
 Below listed are products of similar use from other intellegent people. Make sure you trust them before installing.  
 
-Medium Unlocker: [GitHub](https://outgoing.prod.mozaws.net/v1/689d9f6017e474aee9c1826fd5529c2a31e9d0481fd0d955be8f5c935c43ad33/https%3A//github.com/und3fined/medium-unlocker)  
+Medium Unlocker: [GitHub](https://github.com/und3fined/medium-unlocker)  
 Bypass Paywalls: [GitHub](https://github.com/iamadamdev/bypass-paywalls-chrome)  
 <br>
