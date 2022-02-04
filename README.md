@@ -1,5 +1,5 @@
 # Article-Unlocker
-Unlocks articles.  
+Unlocks articles on theinitium.com  
 <br>
 
 ## Compatibility
