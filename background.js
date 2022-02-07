@@ -45,7 +45,8 @@ function startup() {
 }
 
 function URLConverter(title, oldURL, x) {
-  let replace = ['，', '。', '、', '=', '⋯', '？', '！', '；' ,'：' ,'「', '」', '『', '』', '《', '》', ' ', ',', '.', ':', ';']; //need to be expanded
+  let replace = ['，', '。', '、', '=', '⋯', '？', '！', '；' ,'：' ,'「', '」', '『', '』', '《', '》', ',', '.', ':', ';']; //need to be expanded
+  title = title.replaceAll(' ','-');
   for (i of replace){
     title = title.replaceAll(i,'');
   }
