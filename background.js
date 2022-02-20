@@ -45,10 +45,10 @@ function startup() {
 }
 
 function URLConverter(title, oldURL, x) {
-  let replace = ['，', '。', '、', '=', '⋯', '？', '！', '；' ,'：' ,'「', '」', '『', '』', '《', '》', ',', '.', ':', ';']; //need to be expanded
+  let replace = ['，', '。', '、', '=', '⋯', '？', '！', '；' ,'：' ,'「', '」', '『', '』', '《', '》', ',', '.', ':', ';', '—']; //need to be expanded
   title = title.replaceAll(' ','-');
   for (i of replace){
-    title = title.replaceAll(i,'');
+      title = title.replaceAll(i,'');
   }
   let month = parseInt(oldURL[35] + oldURL[36]);
   let date = parseInt(oldURL[37] + oldURL[38]) + x; //need to be upgraded
