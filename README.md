@@ -1,3 +1,4 @@
+![Icon](https://github.com/YS-Wong/Article-Unlocker/blob/main/images/article_unlocker128.png)
 # Article-Unlocker
 Unlocks articles on theinitium.com  
 <br>
