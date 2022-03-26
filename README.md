@@ -18,7 +18,7 @@ Since the extension has not been uploaded to Chrome Web Store, one can only inst
 4. Click “Load unpacked”
 5. Select folder which includes `manifest.json`
 ### Firefox
-Download Add-on from [here](https://addons.mozilla.org/en-GB/firefox/addon/article-unlocker/).  
+Download Add-on [here](https://addons.mozilla.org/en-GB/firefox/addon/article-unlocker/).  
 <br>
 
 ## License
