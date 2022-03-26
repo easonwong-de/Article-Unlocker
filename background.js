@@ -45,15 +45,14 @@ function startup() {
 }
 
 function URLConverter(title, oldURL, x) {
-  let replace = ['，', '。', '、', '=', '⋯', '？', '！', '；' ,'：' ,'「', '」', '『', '』', '《', '》', ',', '.', ':', ';', '—']; //need to be expanded
-  title = title.replaceAll(' ','-');
+  let replace = ['，', '。', '、', '=', '⋯', '？', '！', '；' ,'：', '︰', '（', '）', '「', '」', '『', '』', '《', '》', ',', '.', ':', ';', '—']; //need to be expanded
   for (i of replace){
       title = title.replaceAll(i,'');
   }
+  title = title.replaceAll(' ','-'); //mystery dash needs to be solve
   let month = parseInt(oldURL[35] + oldURL[36]);
   let date = parseInt(oldURL[37] + oldURL[38]) + x; //need to be upgraded
   if (month.toString().length == 1) month = '0' + month.toString();
   if (date.toString().length == 1) date = '0' + date.toString();
   return 'https://telegra.ph/' + title + '端傳媒-Initium-Media-' + month + '-' + date;
 }
-
