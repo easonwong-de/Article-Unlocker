@@ -1,7 +1,7 @@
 {
   "name": "Article Unlocker",
-  "version": "1.2.3",
-  "description": "Unlocks articles.",
+  "version": "1.2.3a",
+  "description": "Unlocks articles on theinitium.com",
   "author": "Eason Wong",
   "permissions": ["activeTab", "tabs", "storage", "https://telegra.ph/*", "https://theinitium.com/*"],
   "background": {
