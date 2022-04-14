@@ -27,7 +27,7 @@ Download Add-on [here](https://addons.mozilla.org/en-GB/firefox/addon/article-un
 <br>
 
 ## Similar Projects
-Below listed are products of similar use from other intellegent people. Make sure you trust them before installing.  
+Below listed are products of similar use from other intelligent people. Make sure you trust them before installing.  
 
 Medium Unlocker: [GitHub](https://github.com/und3fined/medium-unlocker)  
 Bypass Paywalls: [GitHub](https://github.com/iamadamdev/bypass-paywalls-chrome)  
