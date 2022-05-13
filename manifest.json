@@ -3,15 +3,29 @@
   "version": "1.2.4",
   "description": "Unlocks articles on theinitium.com",
   "author": "Eason Wong",
-  "permissions": ["activeTab", "tabs", "storage", "https://telegra.ph/*", "https://theinitium.com/*"],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "https://telegra.ph/*",
+    "https://theinitium.com/*"
+  ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": false
   },
-  "content_scripts": [{
-      "matches": ["*://theinitium.com/*"],
-      "js": ["content_script.js"]
-    }],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://theinitium.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ],
   "page_action": {
     "default_icon": {
       "16": "images/article_unlocker16.png",
