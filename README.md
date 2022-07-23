@@ -1,7 +1,8 @@
 ![Icon](https://github.com/YS-Wong/Article-Unlocker/blob/main/images/article_unlocker128.png)
 # Article-Unlocker
 Unlocks articles on theinitium.com  
-<img src="https://addons.mozilla.org/user-media/previews/full/266/266108.png">
+<br>
+<img src="https://addons.mozilla.org/user-media/previews/full/266/266108.png" width="500">
 <br>
 
 ## Installation
