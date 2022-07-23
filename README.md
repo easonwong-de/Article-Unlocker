@@ -2,7 +2,7 @@
 # Article-Unlocker
 Unlocks articles on theinitium.com  
 <br>
-<img src="https://addons.mozilla.org/user-media/previews/full/266/266108.png" width="750">
+<img src="https://addons.mozilla.org/user-media/previews/full/266/266108.png">
 <br>
 
 ## Installation
