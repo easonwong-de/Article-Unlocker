@@ -3,14 +3,9 @@
 Unlocks articles on theinitium.com  
 <br>
 
-## Compatibility
-Chrome: Yes  
-Firefox: Yes  
-Edge: Yes (not tested)  
-Safari: No  
-<br>
-
 ## Installation
+### Firefox
+**[![Get it for Firefox!](https://extensionworkshop.com/assets/img/documentation/publish/get-the-addon-178x60px.dad84b42.png)](https://addons.mozilla.org/firefox/addon/adaptive-tab-bar-color/?utm_source=github.com&utm_medium=git&utm_content=download-button&campaign=github)**  
 ### Chrome / Edge
 Since the extension has not been uploaded to Chrome Web Store, one can only install the extension using source code.  
 1. Download and unzip this repo
@@ -18,8 +13,6 @@ Since the extension has not been uploaded to Chrome Web Store, one can only inst
 3. Enable “Developer mode”
 4. Click “Load unpacked”
 5. Select folder which includes `manifest.json`
-### Firefox
-Download Add-on [here](https://addons.mozilla.org/en-GB/firefox/addon/article-unlocker/).  
 <br>
 
 ## License
