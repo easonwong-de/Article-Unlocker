@@ -26,14 +26,13 @@ function searchForArticle(title, url, tab, i) {
     if (xhr.readyState == 4) { //HTML request fullfilled
       let html_text = xhr.responseText;
       if (html_text.includes("<h1>404</h1>") || !html_text.includes("@chotamreaderbot")) {
-        browser.tabs.sendMessage(tab.id, "delete_button", () => {
-          if (i < 3) {
-            console.log("Attempt: " + i + "\nContent unavailable.");
-            searchForArticle(title, url, tab, ++i);
-          } else {
-            console.log("Too many attempts, giving up.");
-          }
-        });
+        browser.tabs.sendMessage(tab.id, "delete_button");
+        if (i < 3) {
+          console.log("Attempt: " + i + "\nContent unavailable.");
+          searchForArticle(title, url, tab, ++i);
+        } else {
+          console.log("Too many attempts, giving up.");
+        }
       } else { //article extracted successfully
         article = html_text.substring(html_text.indexOf("<p>"), html_text.lastIndexOf("</p>", html_text.lastIndexOf("</p>") - 1) + 4);
         if (article.indexOf("<h4") > 0) article = article.substring(0, article.indexOf("<h4") - 1); //Get rid of a banner
