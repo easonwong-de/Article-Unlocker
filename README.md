@@ -2,8 +2,12 @@
 # Article-Unlocker
 Unlocks articles on theinitium.com  
 <br>
-**[![Get it for Firefox!](https://github.com/YS-Wong/Article-Unlocker/blob/main/Badges/Get_Addon_Badge_Firefox.png?raw=true)](https://addons.mozilla.org/firefox/addon/article-unlocker/?utm_source=github.com&utm_medium=git&utm_content=download-button&campaign=github)**  
-**[![Learn how to load unpacked extension for Chrome / Edge](https://github.com/YS-Wong/Article-Unlocker/blob/main/Badges/Get_Addon_Badge_Chrome_Edge.png?raw=true)](https://www.instructables.com/How-to-Load-Unpacked-Extension-in-Chrome-Easy/)**  
+<a href="https://addons.mozilla.org/firefox/addon/article-unlocker/?utm_source=github.com&utm_medium=git&utm_content=download-button&campaign=github" target="_blank">
+    <img width="178" height="48" src="https://github.com/YS-Wong/Article-Unlocker/blob/main/Badges/Get_Addon_Badge_Firefox.png?raw=true">
+</a>
+<a href="https://www.instructables.com/How-to-Load-Unpacked-Extension-in-Chrome-Easy/" target="_blank">
+    <img width="178" height="48" src="https://github.com/YS-Wong/Article-Unlocker/blob/main/Badges/Get_Addon_Badge_Chrome_Edge.png?raw=true">
+</a>
 <br>
 
 ## What Does The Add-on Do
